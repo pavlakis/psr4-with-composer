@@ -6,12 +6,27 @@ This is a very basic getting started example for setting up a basic project usin
 
 There are 5 files in total:
 
-1. MyApp/composer.json
+>Initially used just for composer to generate the autoloader
 
-2. MyApp/src/Http/Request.php
+* MyApp/composer.json
 
-3. MyApp/tests/Http/RequestTest.php
 
-4. MyApp/tests/bootstrap.php
+>Create a class with the application namespace MyApp\Http
 
-5. MyApp/tests/phpunit.xml.dist
+* MyApp/src/Http/Request.php
+
+>Create a test with its own namespace MyApp\Tests\Http
+
+* MyApp/tests/Http/RequestTest.php
+
+
+>The bootstrap file for phpunit
+
+* MyApp/tests/bootstrap.php
+
+
+> For phpunit to know how to bootstrap the application
+
+* MyApp/tests/phpunit.xml.dist
+
+
