@@ -29,4 +29,8 @@ There are 5 files in total:
 
 * MyApp/tests/phpunit.xml.dist
 
+### Install and Run
+* Run composer install in the root directory of MyApp 
+* If succesful, composer has generated the autoloader file, at: MyApp/vendor/autoload.php
+* To run the tests, call phpunit from MyApp/tests
 
