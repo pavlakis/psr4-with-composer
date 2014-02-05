@@ -1,6 +1,6 @@
 <?php
 
-namespace MyApp\Http;
+namespace MyApp\Tests\Http;
 
 class RequestTest extends \PHPUnit_Framework_TestCase
 {
